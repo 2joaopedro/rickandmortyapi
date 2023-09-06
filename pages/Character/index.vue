@@ -13,13 +13,17 @@
 </script>
 
 <template>
-    <main  className="lex mx-40 my-5">
-        <ListCharacter 
-            v-for="character in characters" 
-            :key="character.id" 
-            :name="character.name" 
-            :status="character.status" 
-            :species="character.species">
-        </ListCharacter>
+    <main>
+        <div className="m-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+            <ListCharacter 
+                v-for="character in characters" 
+                :key="character.id" 
+                :name="character.name" 
+                :status="character.status" 
+                :species="character.species"
+                :image="character.image"
+                >
+            </ListCharacter>
+        </div>
     </main>
 </template>
