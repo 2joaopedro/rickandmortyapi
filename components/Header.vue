@@ -3,15 +3,13 @@
 </script>
 
 <template>
-    <header as="nav" className="flex items-center justify-between flex mx-40 my-5">
+    <header as="nav" class="flex fixed z-20  items-center justify-between bg-white shadow-xl min-w-full  px-60 py-2">
         <img :src="Logo" alt="" class="w-14 h-14"/>
-        <div>
-           <ul className="flex gap-5">
-            <li><NuxtLink to="/">Home</NuxtLink></li>
-            <li><NuxtLink to="/Character">Character</NuxtLink></li>
-            <li><NuxtLink to="/Location">Location</NuxtLink></li>
-            <li><NuxtLink to="/Episode">Episode</NuxtLink></li>
-           </ul>
+        <div class="flex items-center space-x-5 text-base">
+            <NuxtLink to="/" class="text-lg font-semibold">Home</NuxtLink>
+            <NuxtLink to="/Character" class="text-lg font-semibold">Character</NuxtLink>
+            <NuxtLink to="/Location" class="text-lg font-semibold">Location</NuxtLink>
+            <NuxtLink to="/Episode" class="text-lg font-semibold">Episode</NuxtLink>
         </div>
         <div>
             <input placeholder="Search"/>
@@ -19,4 +17,3 @@
     </header>
 </template>
 
-<Style lang="scss"></Style>
