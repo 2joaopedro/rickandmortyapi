@@ -1,3 +1,3 @@
 <template>
-    <div className="lex mx-40 my-5">Home page</div>
+    <div class="lex mx-40 my-5">Home page</div>
 </template>
