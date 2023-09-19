@@ -2,12 +2,11 @@
     <main class="flex justify-center min-w-full">
       <div class="my-28 ">
        <div>
-        <input
-          type="text"
-          v-model="searchTerm"
-          placeholder="Search..."
-          class="w-full p-3 mb-4 bg-white text-gray-700 shadow-2xl rounded-2xl " 
-        />
+        <input  
+        type="search"
+        v-model="searchTerm"
+        placeholder="Search..."
+        class="w-full p-3 mb-4 bg-white text-gray-700 shadow-md rounded-2xl " />
        </div>
   
         <div class="grid grid-cols-1 gap-x-5 gap-y-5 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-5">
@@ -29,7 +28,7 @@
   import { ref, reactive, onMounted, computed } from 'vue';
   
   let characters = reactive(ref([]));
-  let searchTerm = ref('');
+  const searchTerm = ref('');
   
   onMounted(async () => {
     try {
