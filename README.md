@@ -26,8 +26,7 @@ Para executar este projeto em sua máquina local, siga estas etapas:
 
     bash
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
+git clone https://github.com/2joaopedro/rickandmortyapi.git
 Acesse o diretório do projeto:
 
 bash
