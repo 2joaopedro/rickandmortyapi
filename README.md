@@ -1,7 +1,10 @@
-Desenvolvimento de Aplicações - Projeto
-Nome: João Pedro Franchini
-RA: 1933251
-Objetivo do Projeto
+#Desenvolvimento de Aplicações - Projeto
+
+#Nome: João Pedro Franchini
+
+#RA: 1933251
+
+#Objetivo do Projeto
 
 O objetivo deste projeto é desenvolver uma aplicação que permita aos usuários explorar informações sobre os personagens, planetas e episódios da série. Essa aplicação fornecerá uma interface amigável e intuitiva para que os fãs da série possam acessar detalhes relevantes de forma fácil e rápida.
 Tecnologias Utilizadas
